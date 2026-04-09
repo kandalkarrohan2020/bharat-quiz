@@ -1,0 +1,128 @@
+[2026-04-08 17:32:17] [31merror[39m: [31m❌ MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-04-08 17:32:45] [31merror[39m: [31m❌ MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-04-08 17:32:58] [31merror[39m: [31m❌ MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-04-08 17:33:26] [31merror[39m: [31m❌ MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-04-08 17:33:42] [31merror[39m: [31m❌ MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-04-08 17:33:48] [31merror[39m: [31m❌ MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-04-08 17:34:06] [31merror[39m: [31m❌ MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-04-08 17:34:22] [31merror[39m: [31m❌ MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-04-08 17:34:41] [31merror[39m: [31m❌ MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-04-08 17:34:53] [31merror[39m: [31m❌ MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-04-08 17:35:13] [31merror[39m: [31m❌ MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-04-08 17:35:33] [31merror[39m: [31m❌ MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-04-08 17:36:03] [31merror[39m: [31m❌ MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-04-08 17:36:25] [31merror[39m: [31m❌ MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-04-08 17:36:52] [31merror[39m: [31m❌ MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-04-08 17:37:01] [31merror[39m: [31m❌ MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-04-08 17:37:08] [31merror[39m: [31m❌ MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-04-08 17:45:45] [31merror[39m: [31m❌ MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-04-08 17:48:37] [31merror[39m: [31m❌ MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-04-08 17:49:06] [31merror[39m: [31m❌ MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-04-08 17:49:15] [31merror[39m: [31m❌ MongoDB connection failed: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017[39m
+[2026-04-09 11:01:56] [31merror[39m: [31mMongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster.mongodb.net[39m
+[2026-04-09 11:02:19] [31merror[39m: [31mMongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster.mongodb.net[39m
+[2026-04-09 11:02:27] [31merror[39m: [31mMongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster.mongodb.net[39m
+[2026-04-09 11:02:31] [31merror[39m: [31mMongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster.mongodb.net[39m
+[2026-04-09 11:07:08] [31merror[39m: [31mMongoDB connection failed: querySrv ENOTFOUND _mongodb._tcp.cluster.mongodb.net[39m
+[2026-04-09 11:10:57] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::5000[39m
+[2026-04-09 11:12:07] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::5000[39m
+[2026-04-09 11:19:34] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::5000[39m
+[2026-04-09 11:21:56] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::5000[39m
+[2026-04-09 11:22:10] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::5000[39m
+[2026-04-09 11:22:57] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::5000[39m
+[2026-04-09 11:24:23] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::5000[39m
+[2026-04-09 11:27:42] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::5000[39m
+[2026-04-09 11:28:01] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::5000[39m
+[2026-04-09 11:53:16] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::5000[39m
+[2026-04-09 14:38:43] [31merror[39m: Error: Invalid email or password
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:64:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-09 14:38:56] [31merror[39m: Error: Invalid email or password
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:64:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-09 14:43:31] [31merror[39m: Error: Invalid email or password
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:64:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-09 14:43:33] [31merror[39m: Error: Invalid email or password
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:64:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-09 14:45:53] [31merror[39m: Error: Invalid email or password
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:64:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-09 14:45:54] [31merror[39m: Error: Invalid email or password
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:64:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-09 14:45:55] [31merror[39m: Error: Invalid email or password
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:64:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-09 14:47:55] [31merror[39m: Error: Invalid Email
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:64:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-09 14:52:05] [31merror[39m: Error: Invalid Email
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:64:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-09 14:52:32] [31merror[39m: Error: Invalid Email
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:64:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-09 14:52:57] [31merror[39m: Error: Invalid Email
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:64:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-09 15:01:15] [31merror[39m: Error: Invalid Email
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:64:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-09 15:01:24] [31merror[39m: Error: Invalid Email
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:64:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-09 15:01:34] [31merror[39m: Error: Invalid Email
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:64:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-09 15:03:58] [31merror[39m: Error: Account Not Found on This Email!
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:64:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-09 15:04:21] [31merror[39m: Error: Account Not Found on This Email!
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:64:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-09 15:05:07] [31merror[39m: Error: Account Not Found on This Email!
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:64:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-09 15:05:38] [31merror[39m: Error: Account Not Found on This Email!
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:64:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-09 15:09:08] [31merror[39m: Error: Account Not Found on This Email !
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:64:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-09 15:13:20] [31merror[39m: Error: Account Not Found on This Email !
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:64:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-09 15:26:55] [31merror[39m: Error: Account Not Found on This Email !
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:64:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-09 15:38:33] [31merror[39m: Error: Account Not Found on This Email !
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:64:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-09 15:41:19] [31merror[39m: Error: Account Not Found on This Email !
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:64:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)

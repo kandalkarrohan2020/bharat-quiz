@@ -13,13 +13,10 @@ const bootstrap = async (): Promise<void> => {
 
   server.listen(config.server.port, () => {
     logger.info(`
-    ╔══════════════════════════════════════════════╗
-    ║       🇮🇳  India Quiz API Started  🇮🇳         ║
-    ╠══════════════════════════════════════════════╣
-    ║  ENV  : ${config.env.padEnd(36)}║
-    ║  PORT : ${String(config.server.port).padEnd(36)}║
-    ║  API  : /api/${config.server.apiVersion.padEnd(31)}║
-    ╚══════════════════════════════════════════════╝
+       India Quiz API Started
+       ENV  : ${config.env.padEnd(36)}
+       PORT : ${String(config.server.port).padEnd(36)}
+       API  : /api/${config.server.apiVersion.padEnd(31)}
     `);
   });
 
