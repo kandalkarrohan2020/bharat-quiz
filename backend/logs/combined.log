@@ -424,3 +424,777 @@
 [2026-04-09 22:39:13] [33mwarn[39m: [33m[39m
 [33mSIGINT received. Shutting down gracefully...[39m
 [2026-04-09 22:39:14] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-12 11:55:44] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-01.e8ba9.mongodb.net[39m
+[2026-04-12 11:55:44] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 11:56:54] [31merror[39m: Error: Wrong Password
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:67:25)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-12 11:57:00] [31merror[39m: Error: Wrong Password
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:67:25)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-12 12:15:20] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-01.e8ba9.mongodb.net[39m
+[2026-04-12 12:15:20] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 12:18:59] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-12 12:18:59] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 12:19:08] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-12 12:19:08] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 12:24:17] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-12 12:24:17] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 12:24:21] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-12 12:24:21] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 12:26:59] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-12 12:26:59] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 12:29:38] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-01.e8ba9.mongodb.net[39m
+[2026-04-12 12:29:38] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 12:45:45] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-02.e8ba9.mongodb.net[39m
+[2026-04-12 12:45:45] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 12:47:15] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-01.e8ba9.mongodb.net[39m
+[2026-04-12 12:47:15] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 12:47:30] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-12 12:47:30] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 12:47:40] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-02.e8ba9.mongodb.net[39m
+[2026-04-12 12:47:40] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 12:48:18] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-02.e8ba9.mongodb.net[39m
+[2026-04-12 12:48:18] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 13:19:29] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-02.e8ba9.mongodb.net[39m
+[2026-04-12 13:19:29] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 13:24:02] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-01.e8ba9.mongodb.net[39m
+[2026-04-12 13:24:02] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 13:32:05] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-02.e8ba9.mongodb.net[39m
+[2026-04-12 13:32:05] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 13:32:51] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-12 13:32:51] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 13:33:39] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-01.e8ba9.mongodb.net[39m
+[2026-04-12 13:33:39] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 13:35:53] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-02.e8ba9.mongodb.net[39m
+[2026-04-12 13:35:53] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 13:37:58] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-12 13:37:58] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 13:42:18] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-12 13:42:18] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 13:42:38] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-02.e8ba9.mongodb.net[39m
+[2026-04-12 13:42:38] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 13:44:22] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-01.e8ba9.mongodb.net[39m
+[2026-04-12 13:44:22] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 13:46:18] [31merror[39m: Error: Access denied. Admin privileges required.
+    at requireAdmin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/admin.middleware.ts:42:13)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at protect (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/auth.middleware.ts:33:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+[2026-04-12 13:46:18] [31merror[39m: Error: Access denied. Admin privileges required.
+    at requireAdmin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/admin.middleware.ts:42:13)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at protect (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/auth.middleware.ts:33:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+[2026-04-12 13:47:11] [31merror[39m: Error: Access denied. Admin privileges required.
+    at requireAdmin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/admin.middleware.ts:42:13)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at protect (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/auth.middleware.ts:33:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+[2026-04-12 13:50:11] [31merror[39m: Error: Access denied. Admin privileges required.
+    at requireAdmin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/admin.middleware.ts:42:13)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at protect (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/auth.middleware.ts:33:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+[2026-04-12 13:50:11] [31merror[39m: Error: Access denied. Admin privileges required.
+    at requireAdmin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/admin.middleware.ts:42:13)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at protect (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/auth.middleware.ts:33:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+[2026-04-12 13:50:12] [31merror[39m: Error: Access denied. Admin privileges required.
+    at requireAdmin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/admin.middleware.ts:42:13)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at protect (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/auth.middleware.ts:33:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+[2026-04-12 13:55:43] [31merror[39m: Error: Access denied. Admin privileges required.
+    at requireAdmin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/admin.middleware.ts:42:13)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at protect (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/auth.middleware.ts:33:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+[2026-04-12 13:55:45] [31merror[39m: Error: Access denied. Admin privileges required.
+    at requireAdmin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/admin.middleware.ts:42:13)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at protect (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/auth.middleware.ts:33:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+[2026-04-12 13:55:49] [31merror[39m: Error: Access denied. Admin privileges required.
+    at requireAdmin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/admin.middleware.ts:42:13)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at protect (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/auth.middleware.ts:33:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+[2026-04-12 13:55:49] [31merror[39m: Error: Access denied. Admin privileges required.
+    at requireAdmin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/admin.middleware.ts:42:13)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at protect (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/auth.middleware.ts:33:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+[2026-04-12 13:57:10] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-12 13:57:10] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 13:57:26] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-01.e8ba9.mongodb.net[39m
+[2026-04-12 13:57:26] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 13:58:02] [31merror[39m: TypeError: schema.safeParse is not a function
+    at <anonymous> (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/validate.middleware.ts:11:27)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at requireAdmin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/admin.middleware.ts:45:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+[2026-04-12 13:59:46] [31merror[39m: TypeError: schema.safeParse is not a function
+    at <anonymous> (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/validate.middleware.ts:11:27)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at requireAdmin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/admin.middleware.ts:45:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+[2026-04-12 13:59:47] [31merror[39m: TypeError: schema.safeParse is not a function
+    at <anonymous> (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/validate.middleware.ts:11:27)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at requireAdmin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/admin.middleware.ts:45:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+[2026-04-12 14:01:53] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-12 14:01:53] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 14:03:02] [31merror[39m: TypeError: schema.safeParse is not a function
+    at <anonymous> (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/validate.middleware.ts:11:27)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:145:7)
+    at Route.dispatch (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at requireAdmin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/admin.middleware.ts:45:5)
+[2026-04-12 14:05:30] [33mwarn[39m: [33m[39m
+[33mSIGINT received. Shutting down gracefully...[39m
+[2026-04-12 14:08:37] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-12 14:08:37] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 14:09:07] [31merror[39m: Error: Wrong Password
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:67:25)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-12 14:09:17] [31merror[39m: Error: Wrong Password
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:67:25)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-12 14:11:11] [31merror[39m: Error: Wrong Password
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:67:25)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-12 14:11:16] [31merror[39m: Error: Wrong Password
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:67:25)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-12 14:11:18] [31merror[39m: Error: Wrong Password
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:67:25)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-12 14:22:30] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-02.e8ba9.mongodb.net[39m
+[2026-04-12 14:22:30] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 14:33:46] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-02.e8ba9.mongodb.net[39m
+[2026-04-12 14:33:46] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 14:33:59] [31merror[39m: Error: Wrong Password
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:67:25)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-12 14:34:54] [31merror[39m: ValidationError: Category validation failed: slug: Path `slug` is required.
+    at Document.invalidate (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/document.js:3381:32)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/document.js:3142:17
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/schemaType.js:1446:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+[2026-04-12 14:39:23] [31merror[39m: ValidationError: Category validation failed: slug: Path `slug` is required.
+    at Document.invalidate (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/document.js:3381:32)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/document.js:3142:17
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/schemaType.js:1446:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+[2026-04-12 14:39:30] [31merror[39m: ValidationError: Category validation failed: slug: Path `slug` is required.
+    at Document.invalidate (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/document.js:3381:32)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/document.js:3142:17
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/schemaType.js:1446:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+[2026-04-12 14:40:49] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-01.e8ba9.mongodb.net[39m
+[2026-04-12 14:40:49] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 14:42:08] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-01.e8ba9.mongodb.net[39m
+[2026-04-12 14:42:08] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 14:42:08] [31merror[39m: ValidationError: Category validation failed: slug: Path `slug` is required.
+    at Document.invalidate (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/document.js:3381:32)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/document.js:3142:17
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/schemaType.js:1446:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+[2026-04-12 14:42:30] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-12 14:42:30] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 14:49:45] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-12 14:49:45] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 14:53:02] [31merror[39m: ValidationError: Validation failed: questions.question: Question must be at least 10 characters
+    at _done (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/helpers/updateValidators.js:227:19)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/helpers/updateValidators.js:203:11
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/helpers/updateValidators.js:244:7
+    at callback (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/schema/documentArray.js:282:18)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/document.js:3153:9
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/kareem/index.js:191:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+[2026-04-12 14:53:26] [31merror[39m: ValidationError: Validation failed: questions.question: Question must be at least 10 characters
+    at _done (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/helpers/updateValidators.js:227:19)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/helpers/updateValidators.js:203:11
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/helpers/updateValidators.js:244:7
+    at callback (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/schema/documentArray.js:282:18)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/document.js:3153:9
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/kareem/index.js:191:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+[2026-04-12 14:56:12] [31merror[39m: TypeError: AdminService.bulkUpdateDifficulty is not a function
+    at bulkUpdateDifficulty (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/admin.controller.ts:249:52)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+    at <anonymous> (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/validate.middleware.ts:20:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+[2026-04-12 14:57:15] [31merror[39m: TypeError: AdminService.updateQuestion is not a function
+    at updateQuestion (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/admin.controller.ts:182:43)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+    at <anonymous> (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/validate.middleware.ts:20:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:284:15
+    at param (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:365:14)
+[2026-04-12 14:57:21] [31merror[39m: TypeError: AdminService.updateQuestion is not a function
+    at updateQuestion (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/admin.controller.ts:182:43)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+    at <anonymous> (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/validate.middleware.ts:20:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:284:15
+    at param (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:365:14)
+[2026-04-12 15:25:01] [31merror[39m: ValidationError: Validation failed: questions.question: Question must be at least 10 characters
+    at _done (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/helpers/updateValidators.js:227:19)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/helpers/updateValidators.js:203:11
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/helpers/updateValidators.js:244:7
+    at callback (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/schema/documentArray.js:282:18)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/document.js:3153:9
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/kareem/index.js:191:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+[2026-04-12 15:25:23] [31merror[39m: TypeError: AdminService.updateQuestion is not a function
+    at updateQuestion (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/admin.controller.ts:182:43)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+    at <anonymous> (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/validate.middleware.ts:20:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:284:15
+    at param (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:365:14)
+[2026-04-12 15:25:38] [31merror[39m: TypeError: AdminService.bulkUpdateDifficulty is not a function
+    at bulkUpdateDifficulty (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/admin.controller.ts:249:52)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+    at <anonymous> (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/validate.middleware.ts:20:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+[2026-04-12 15:29:13] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-01.e8ba9.mongodb.net[39m
+[2026-04-12 15:29:13] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 15:30:46] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-01.e8ba9.mongodb.net[39m
+[2026-04-12 15:30:46] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 15:31:28] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-01.e8ba9.mongodb.net[39m
+[2026-04-12 15:31:28] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 17:05:02] [31merror[39m: Error: Account Not Found on This Email !
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:64:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-12 17:52:56] [33mwarn[39m: [33m[39m
+[33mSIGINT received. Shutting down gracefully...[39m
+[2026-04-12 17:53:01] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-01.e8ba9.mongodb.net[39m
+[2026-04-12 17:53:01] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 18:19:31] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-02.e8ba9.mongodb.net[39m
+[2026-04-12 18:19:31] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 18:19:47] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-01.e8ba9.mongodb.net[39m
+[2026-04-12 18:19:47] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 18:19:50] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-12 18:19:50] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 18:20:09] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-02.e8ba9.mongodb.net[39m
+[2026-04-12 18:20:09] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 18:20:33] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-12 18:20:33] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 18:20:35] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-01.e8ba9.mongodb.net[39m
+[2026-04-12 18:20:35] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 18:21:11] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-02.e8ba9.mongodb.net[39m
+[2026-04-12 18:21:11] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 18:21:13] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-12 18:21:13] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 18:25:25] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-01.e8ba9.mongodb.net[39m
+[2026-04-12 18:25:25] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 18:29:28] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-12 18:29:28] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 18:37:27] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-12 19:10:41] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-12 19:27:39] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-12 19:30:02] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-12 19:42:33] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-12 19:44:32] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-12 19:47:01] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-12 19:53:08] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-12 19:58:36] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-12 20:08:32] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-12 20:13:08] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-12 20:13:59] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-12 20:17:29] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-12 20:23:35] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-12 22:15:07] [33mwarn[39m: [33m[39m
+[33mSIGINT received. Shutting down gracefully...[39m
+[2026-04-12 22:15:07] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-12 22:15:13] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-02.e8ba9.mongodb.net[39m
+[2026-04-12 22:15:13] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 22:16:31] [31merror[39m: Error: Wrong Password
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:67:25)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-12 22:16:59] [31merror[39m: ValidationError: Validation failed: questions.question: Question must be at least 10 characters
+    at _done (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/helpers/updateValidators.js:227:19)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/helpers/updateValidators.js:203:11
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/helpers/updateValidators.js:244:7
+    at callback (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/schema/documentArray.js:282:18)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongoose/lib/document.js:3153:9
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/kareem/index.js:191:16
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+[2026-04-12 22:37:10] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-01.e8ba9.mongodb.net[39m
+[2026-04-12 22:37:10] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 22:37:13] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-12 22:37:13] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 22:37:56] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-02.e8ba9.mongodb.net[39m
+[2026-04-12 22:37:56] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 22:41:34] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-12 22:41:34] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 22:41:55] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-12 22:41:55] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-12 23:40:33] [31merror[39m: Error: Invalid category ID
+    at Object.getLeaderboard (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/game.service.ts:141:15)
+    at getLeaderboard (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/game.controller.ts:72:55)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+    at <anonymous> (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/validate.middleware.ts:20:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+    at optionalAdminAuth (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/routes/game.routes.ts:37:3)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+[2026-04-12 23:40:35] [31merror[39m: Error: Invalid category ID
+    at Object.getLeaderboard (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/game.service.ts:141:15)
+    at getLeaderboard (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/game.controller.ts:72:55)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+    at <anonymous> (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/validate.middleware.ts:20:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+    at optionalAdminAuth (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/routes/game.routes.ts:37:3)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+[2026-04-12 23:40:36] [31merror[39m: Error: Invalid category ID
+    at Object.getLeaderboard (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/game.service.ts:141:15)
+    at getLeaderboard (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/game.controller.ts:72:55)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+    at <anonymous> (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/validate.middleware.ts:20:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+    at optionalAdminAuth (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/routes/game.routes.ts:37:3)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+[2026-04-12 23:40:38] [31merror[39m: Error: Invalid category ID
+    at Object.getLeaderboard (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/game.service.ts:141:15)
+    at getLeaderboard (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/game.controller.ts:72:55)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+    at <anonymous> (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/validate.middleware.ts:20:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+    at optionalAdminAuth (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/routes/game.routes.ts:37:3)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+[2026-04-12 23:40:40] [31merror[39m: Error: Invalid category ID
+    at Object.getLeaderboard (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/game.service.ts:141:15)
+    at getLeaderboard (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/game.controller.ts:72:55)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+    at <anonymous> (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/validate.middleware.ts:20:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+    at optionalAdminAuth (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/routes/game.routes.ts:37:3)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+[2026-04-12 23:40:43] [31merror[39m: Error: Invalid category ID
+    at Object.getLeaderboard (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/game.service.ts:141:15)
+    at getLeaderboard (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/game.controller.ts:72:55)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+    at <anonymous> (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/validate.middleware.ts:20:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+    at optionalAdminAuth (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/routes/game.routes.ts:37:3)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+[2026-04-12 23:40:44] [31merror[39m: Error: Invalid category ID
+    at Object.getLeaderboard (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/game.service.ts:141:15)
+    at getLeaderboard (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/game.controller.ts:72:55)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+    at <anonymous> (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/validate.middleware.ts:20:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+    at optionalAdminAuth (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/routes/game.routes.ts:37:3)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+[2026-04-12 23:40:46] [31merror[39m: Error: Invalid category ID
+    at Object.getLeaderboard (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/game.service.ts:141:15)
+    at getLeaderboard (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/game.controller.ts:72:55)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+    at <anonymous> (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/middlewares/validate.middleware.ts:20:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+    at optionalAdminAuth (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/routes/game.routes.ts:37:3)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+[2026-04-12 23:44:19] [33mwarn[39m: [33m[39m
+[33mSIGINT received. Shutting down gracefully...[39m

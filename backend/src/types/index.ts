@@ -1,6 +1,11 @@
 // ============================================================
-// Core Domain Types
+// src/types/index.ts
+// Single source of truth for all domain types.
 // ============================================================
+
+// ─────────────────────────────────────────────────────────────
+// CORE DOMAIN PRIMITIVES
+// ─────────────────────────────────────────────────────────────
 
 export type Difficulty = 'easy' | 'medium' | 'hard';
 
@@ -8,9 +13,9 @@ export type QuizStatus = 'not_started' | 'in_progress' | 'completed';
 
 export type UserRole = 'user' | 'admin';
 
-// ============================================================
-// API Response Types
-// ============================================================
+// ─────────────────────────────────────────────────────────────
+// API RESPONSE TYPES
+// ─────────────────────────────────────────────────────────────
 
 export interface ApiResponse<T = unknown> {
   success: boolean;
@@ -36,9 +41,37 @@ export interface PaginationQuery {
   order?: 'asc' | 'desc';
 }
 
-// ============================================================
-// Quiz Domain Types
-// ============================================================
+// ─────────────────────────────────────────────────────────────
+// AUTH TYPES
+// ─────────────────────────────────────────────────────────────
+
+export interface RegisterPayload {
+  name: string;
+  email: string;
+  password: string;
+}
+
+export interface LoginPayload {
+  email: string;
+  password: string;
+}
+
+export interface JwtPayload {
+  id: string;
+  email: string;
+  role: UserRole;
+  iat?: number;
+  exp?: number;
+}
+
+export interface AuthTokens {
+  accessToken: string;
+  refreshToken: string;
+}
+
+// ─────────────────────────────────────────────────────────────
+// QUIZ DOMAIN TYPES
+// ─────────────────────────────────────────────────────────────
 
 export interface QuestionPayload {
   question: string;
@@ -56,9 +89,9 @@ export interface CategoryPayload {
   questions?: QuestionPayload[];
 }
 
-// ============================================================
-// Quiz Session Types
-// ============================================================
+// ─────────────────────────────────────────────────────────────
+// QUIZ SESSION TYPES
+// ─────────────────────────────────────────────────────────────
 
 export interface QuizAttemptPayload {
   categoryId: string;
@@ -95,37 +128,9 @@ export interface QuestionBreakdown {
   timeTaken: number;
 }
 
-// ============================================================
-// Auth Types
-// ============================================================
-
-export interface RegisterPayload {
-  name: string;
-  email: string;
-  password: string;
-}
-
-export interface LoginPayload {
-  email: string;
-  password: string;
-}
-
-export interface JwtPayload {
-  id: string;
-  email: string;
-  role: UserRole;
-  iat?: number;
-  exp?: number;
-}
-
-export interface AuthTokens {
-  accessToken: string;
-  refreshToken: string;
-}
-
-// ============================================================
-// Leaderboard Types
-// ============================================================
+// ─────────────────────────────────────────────────────────────
+// LEADERBOARD TYPES
+// ─────────────────────────────────────────────────────────────
 
 export interface LeaderboardEntry {
   rank: number;
@@ -137,4 +142,102 @@ export interface LeaderboardEntry {
   percentage: number;
   timeTaken: number;
   achievedAt: Date;
+}
+
+// ─────────────────────────────────────────────────────────────
+// ADMIN — CATEGORY TYPES
+// ─────────────────────────────────────────────────────────────
+
+export interface CreateCategoryPayload {
+  name: string;
+  icon?: string;          // defaults to '📚' in service
+  description?: string;   // defaults to ''
+  color?: string;         // defaults to 'from-blue-700 to-cyan-600'
+}
+
+export interface UpdateCategoryPayload {
+  name?: string;
+  icon?: string;
+  description?: string;
+  color?: string;
+  isActive?: boolean;
+}
+
+// ─────────────────────────────────────────────────────────────
+// ADMIN — QUESTION TYPES
+// ─────────────────────────────────────────────────────────────
+
+export interface CreateQuestionPayload {
+  categoryId: string;
+  question: string;
+  options: [string, string, string, string]; // exactly 4
+  correctAnswer: 0 | 1 | 2 | 3;
+  difficulty: Difficulty;
+}
+
+export interface UpdateQuestionPayload {
+  categoryId?: string; // present when moving to a different category
+  question?: string;
+  options?: [string, string, string, string];
+  correctAnswer?: 0 | 1 | 2 | 3;
+  difficulty?: Difficulty;
+}
+
+export interface QuestionQuery {
+  categoryId?: string;
+  difficulty?: Difficulty;
+  search?: string;
+  page?: number;
+  limit?: number;
+}
+
+// ─────────────────────────────────────────────────────────────
+// ADMIN — BULK OPERATION TYPES
+// ─────────────────────────────────────────────────────────────
+
+export interface BulkDeletePayload {
+  questionIds: string[];
+}
+
+export interface BulkDifficultyPayload {
+  questionIds: string[];
+  difficulty: Difficulty;
+}
+
+// ─────────────────────────────────────────────────────────────
+// ADMIN — SETTINGS TYPES
+// ─────────────────────────────────────────────────────────────
+
+export interface ChangePasswordPayload {
+  currentPassword: string;
+  newPassword: string;
+}
+
+export interface ChangeUsernamePayload {
+  newUsername: string;
+  password: string;
+}
+
+export interface ChangeEmailPayload {
+  newEmail: string;
+  password: string;
+}
+
+// ─────────────────────────────────────────────────────────────
+// ADMIN — SERVICE RETURN TYPES
+// ─────────────────────────────────────────────────────────────
+
+export interface DashboardStats {
+  totalQuestions: number;
+  totalCategories: number;
+  byDifficulty: {
+    easy: number;
+    medium: number;
+    hard: number;
+  };
+}
+
+export interface BulkResult {
+  modifiedCount?: number;
+  deletedCount?: number;
 }
