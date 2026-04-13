@@ -4,7 +4,7 @@
 // All paths match admin.routes.ts exactly.
 // ============================================================
 
-const BASE = 'http://localhost:8000/api/v1';
+const BASE = import.meta.env.VITE_BACKEND_URL + "/api/v1";
 
 // ── shared fetch helper (reuse / replace with your own) ──────
 

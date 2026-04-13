@@ -1198,3 +1198,10 @@
     at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
 [2026-04-12 23:44:19] [33mwarn[39m: [33m[39m
 [33mSIGINT received. Shutting down gracefully...[39m
+[2026-04-13 13:44:02] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-02.e8ba9.mongodb.net[39m
+[2026-04-13 13:44:02] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m

@@ -2,7 +2,7 @@
 // src/services/api.ts
 // ============================================================
 
-const BASE = "http://localhost:8000/api/v1";
+const BASE = import.meta.env.VITE_BACKEND_URL + "/api/v1";
 
 // ─────────────────────────────────────────────────────────────
 // Shared fetch helper
