@@ -2,19 +2,7 @@ import { Request, Response, NextFunction } from 'express';
 import { AuthService } from '../services/auth.service.js';
 import { sendError } from '../utils/response.helper.js';
 import { AppError, ForbiddenError } from '../utils/app-error.js';
-import { UserRole, JwtPayload } from '../types/index.js';
-
-// ============================================================
-// Extend Express Request
-// ============================================================
-
-declare global {
-  namespace Express {
-    interface Request {
-      user?: JwtPayload;
-    }
-  }
-}
+import { UserRole } from '../types/index.js';
 
 // ============================================================
 // Protect Route Middleware
@@ -50,7 +38,7 @@ export const authorize = (...roles: UserRole[]) =>
       sendError(res, 'Authentication required', 401);
       return;
     }
-    if (!roles.includes(req.user.role)) {
+    if (!roles.includes(req.user.role as UserRole)) {
       const err = new ForbiddenError(
         `Access denied. Required role(s): ${roles.join(', ')}`
       );

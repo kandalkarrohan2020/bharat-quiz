@@ -134,7 +134,9 @@ export const AdminService = {
   // QUESTIONS
   // ─────────────────────────────────────────
   async getAllQuestions(query: QuestionQuery) {
-    const { page, limit, skip } = parsePaginationQuery(query);
+    const { page, limit, skip } = parsePaginationQuery(
+      query as Record<string, unknown>,
+    );
     const { categoryId, difficulty, search } = query;
 
     const matchCategory: Record<string, unknown> = { isActive: true };
@@ -151,7 +153,7 @@ export const AdminService = {
       };
     }
 
-    const pipeline = [
+    const pipeline: any[] = [
       { $match: matchCategory },
       { $unwind: "$questions" },
       ...(Object.keys(matchQuestion).length ? [{ $match: matchQuestion }] : []),
@@ -240,12 +242,12 @@ export const AdminService = {
 
       const existingQ = currentCategory.questions.find(
         (q: any) => String(q._id) === questionId,
-      );
+      ) as any;
 
       if (!existingQ) throw new NotFoundError("Question");
 
       const updatedQ = {
-        ...existingQ.toObject(),
+        ...existingQ,
         ...fields,
         _id: existingQ._id, // IMPORTANT: keep same ID
       };
@@ -400,38 +402,6 @@ export const AdminService = {
 
     user.password = newPassword;
     await user.save();
-  },
-
-  async changeUsername(
-    userId: string,
-    newUsername: string,
-    password: string,
-  ): Promise<{ username: string }> {
-    if (!Types.ObjectId.isValid(userId)) {
-      throw new ValidationError("Invalid user ID");
-    }
-
-    const user = await User.findById(userId).select("+password");
-    if (!user) throw new NotFoundError("User");
-
-    const isMatch = await bcrypt.compare(password, user.password);
-    if (!isMatch) {
-      throw new UnauthorizedError("Password is incorrect");
-    }
-
-    const taken = await User.findOne({
-      username: { $regex: new RegExp(`^${newUsername}$`, "i") },
-      _id: { $ne: userId },
-    });
-
-    if (taken) {
-      throw new ValidationError(`Username "${newUsername}" is already taken`);
-    }
-
-    user.username = newUsername;
-    await user.save();
-
-    return { username: user.username };
   },
 
   async changeEmail(

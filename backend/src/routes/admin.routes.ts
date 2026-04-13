@@ -17,7 +17,6 @@ import {
   bulkDeleteSchema,
   bulkDifficultySchema,
   changePasswordSchema,
-  changeUsernameSchema,
   changeEmailSchema,
   questionQuerySchema,
 } from '../middlewares/admin.schemas.js';
@@ -119,16 +118,6 @@ router.patch(
   '/settings/password',
   validate(changePasswordSchema),
   AdminController.changePassword
-);
-
-/**
- * PATCH /api/v1/admin/settings/username
- * Body: { newUsername, password }
- */
-router.patch(
-  '/settings/username',
-  validate(changeUsernameSchema),
-  AdminController.changeUsername
 );
 
 /**

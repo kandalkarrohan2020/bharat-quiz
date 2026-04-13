@@ -4,18 +4,6 @@ import { sendSuccess, sendCreated } from '../utils/response.helper.js';
 import { QuizAttemptPayload } from '../types/index.js';
 
 // ============================================================
-// Extend Express Request globally (BEST PRACTICE)
-// ============================================================
-
-declare module 'express-serve-static-core' {
-  interface Request {
-    user?: {
-      id: string;
-    };
-  }
-}
-
-// ============================================================
 // Quiz Controller
 // ============================================================
 

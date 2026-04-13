@@ -1,4 +1,4 @@
-import mongoose, { Document, Schema } from "mongoose";
+import mongoose, { Types, Document, Schema } from "mongoose";
 import { Difficulty } from "../types/index.js";
 
 // ============================================================
@@ -6,6 +6,7 @@ import { Difficulty } from "../types/index.js";
 // ============================================================
 
 export interface IQuestion {
+  _id: Types.ObjectId;
   legacyId?: string;
   question: string;
   options: string[];

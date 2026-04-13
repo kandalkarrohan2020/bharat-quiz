@@ -7,17 +7,6 @@
 import { Request, Response, NextFunction } from "express";
 import { ForbiddenError, UnauthorizedError } from "../utils/app-error.js";
 
-// ── Extend Express Request (matches your existing pattern) ────
-
-declare module "express-serve-static-core" {
-  interface Request {
-    user?: {
-      id: string;
-      role: string;
-    };
-  }
-}
-
 /**
  * requireAdmin
  *

@@ -2,15 +2,10 @@ import { Request, Response, NextFunction } from 'express';
 import { GameService, SaveResultPayload } from '../services/game.service.js';
 import { sendSuccess, sendCreated } from '../utils/response.helper.js';
 
-// ─────────────────────────────────────────────────────────────
-// Extend Express Request to carry optional admin flag
-// (set by auth middleware when a valid admin token is present)
-// ─────────────────────────────────────────────────────────────
-
 declare module 'express-serve-static-core' {
   interface Request {
     isAdmin?: boolean;
-    user?: { id: string };
+    
   }
 }
 

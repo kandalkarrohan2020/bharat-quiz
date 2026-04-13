@@ -60,6 +60,7 @@ export interface JwtPayload {
   id: string;
   email: string;
   role: UserRole;
+  isAdmin?: boolean;
   iat?: number;
   exp?: number;
 }
@@ -72,6 +73,14 @@ export interface AuthTokens {
 // ─────────────────────────────────────────────────────────────
 // QUIZ DOMAIN TYPES
 // ─────────────────────────────────────────────────────────────
+
+export interface IQuestion {
+  _id: string;
+  question: string;
+  options: string[];
+  correctAnswer: number;
+  difficulty: Difficulty;
+}
 
 export interface QuestionPayload {
   question: string;

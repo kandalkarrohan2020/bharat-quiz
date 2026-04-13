@@ -42,7 +42,7 @@ export const errorHandler = (
 
   // MongoDB Duplicate Key
   if ((err as NodeJS.ErrnoException).code === '11000') {
-    const field = Object.keys((err as Record<string, unknown>).keyValue ?? {})[0];
+    const field = Object.keys((err as unknown as Record<string, unknown>).keyValue ?? {})[0];
     sendError(res, `Duplicate value for field: ${field}`, 409);
     return;
   }

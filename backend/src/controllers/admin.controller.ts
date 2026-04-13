@@ -16,20 +16,8 @@ import type {
   BulkDeletePayload,
   BulkDifficultyPayload,
   ChangePasswordPayload,
-  ChangeUsernamePayload,
   ChangeEmailPayload,
 } from "../types/index.js";
-
-// ── Extend Express Request (if not declared globally already) ─
-
-declare module "express-serve-static-core" {
-  interface Request {
-    user?: {
-      id: string;
-      role: string;
-    };
-  }
-}
 
 // ============================================================
 // Admin Controller
@@ -282,33 +270,6 @@ export const AdminController = {
         req.body.newPassword,
       );
       sendSuccess(res, null, "Password changed successfully");
-    } catch (err) {
-      next(err);
-    }
-  },
-
-  /**
-   * PATCH /api/v1/admin/settings/username
-   * Body: { newUsername, password }
-   */
-  changeUsername: async (
-    req: Request<{}, {}, ChangeUsernamePayload>,
-    res: Response,
-    next: NextFunction,
-  ): Promise<void> => {
-    try {
-      if (!req.user) throw new Error("Unauthorized");
-
-      const updated = await AdminService.changeUsername(
-        req.user.id,
-        req.body.newUsername,
-        req.body.password,
-      );
-      sendSuccess(
-        res,
-        { username: updated.username },
-        "Username changed successfully",
-      );
     } catch (err) {
       next(err);
     }

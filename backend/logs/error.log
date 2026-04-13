@@ -506,3 +506,25 @@
     at optionalAdminAuth (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/routes/game.routes.ts:37:3)
     at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
     at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/route.js:149:13)
+[2026-04-13 14:22:17] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::8000[39m
+[2026-04-13 14:22:21] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::8000[39m
+[2026-04-13 14:24:33] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::8000[39m
+[2026-04-13 14:25:35] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::8000[39m
+[2026-04-13 14:26:20] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::8000[39m
+[2026-04-13 14:26:34] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::8000[39m
+[2026-04-13 14:29:53] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::8000[39m
+[2026-04-13 14:30:52] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::8000[39m
+[2026-04-13 14:32:13] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::8000[39m
+[2026-04-13 14:32:55] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::8000[39m
+[2026-04-13 14:36:12] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::8000[39m
+[2026-04-13 14:37:57] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::8000[39m
+[2026-04-13 14:38:02] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::8000[39m
+[2026-04-13 14:39:12] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::8000[39m
+[2026-04-13 14:41:35] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::8000[39m
+[2026-04-13 14:44:06] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::8000[39m
+[2026-04-13 14:46:31] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::8000[39m
+[2026-04-13 14:47:00] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::8000[39m
+[2026-04-13 14:48:04] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::8000[39m
+[2026-04-13 14:51:52] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::8000[39m
+[2026-04-13 14:54:58] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::8000[39m
+[2026-04-13 14:56:36] [31merror[39m: [31mUncaught Exception: listen EADDRINUSE: address already in use :::8000[39m
