@@ -1205,3 +1205,10 @@
 [32m       PORT : 8000                                [39m
 [32m       API  : /api/v1                             [39m
 [32m    [39m
+[2026-04-13 14:03:06] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-01.e8ba9.mongodb.net[39m
+[2026-04-13 14:03:06] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
