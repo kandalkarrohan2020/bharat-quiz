@@ -115,7 +115,7 @@ export const CategoryService = {
 
   // ── Get questions by category ───────────────────────────────
 
-  async getQuestions(id: string, difficulty?: string) {
+  async getQuestions(id: string, difficulty?: string, limit?: number) {
     if (!Types.ObjectId.isValid(id))
       throw new ValidationError("Invalid category ID");
 
@@ -125,22 +125,40 @@ export const CategoryService = {
     if (!category) throw new NotFoundError("Category");
 
     let questions = category.questions;
+
+    // Filter by difficulty
     if (difficulty && ["easy", "medium", "hard"].includes(difficulty)) {
       questions = questions.filter((q) => q.difficulty === difficulty);
     }
 
-    // Strip correct answers from response
+    // Shuffle (Fisher-Yates)
+    for (let i = questions.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [questions[i], questions[j]] = [questions[j], questions[i]];
+    }
+
+    // Cap to requested limit (fallback: easy=10, medium=15, hard=20)
+    const defaultLimit =
+      difficulty === "easy" ? 10 : difficulty === "hard" ? 20 : 15;
+    const finalLimit = limit ?? defaultLimit;
+    questions = questions.slice(0, finalLimit);
+
     const sanitized = questions.map(
       ({ _id, question, options, difficulty: d, correctAnswer }) => ({
         _id,
         question,
         options,
         difficulty: d,
-        correctAnswer, 
+        correctAnswer,
       }),
     );
 
-    return { categoryName: category.name, questions: sanitized };
+    return {
+      categoryName: category.name,
+      questions: sanitized,
+      totalFetched: sanitized.length,
+      totalAvailable: category.questions.length,
+    };
   },
 
   // ── Add question to category ────────────────────────────────

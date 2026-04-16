@@ -1,7 +1,7 @@
-import { Request, Response, NextFunction } from 'express';
-import { CategoryService } from '../services/category.service.js';
-import { sendSuccess, sendCreated } from '../utils/response.helper.js';
-import { CategoryPayload, QuestionPayload } from '../types/index.js';
+import { Request, Response, NextFunction } from "express";
+import { CategoryService } from "../services/category.service.js";
+import { sendSuccess, sendCreated } from "../utils/response.helper.js";
+import { CategoryPayload, QuestionPayload } from "../types/index.js";
 
 // ============================================================
 // Category Controller
@@ -9,22 +9,36 @@ import { CategoryPayload, QuestionPayload } from '../types/index.js';
 
 export const CategoryController = {
   // GET /categories
-  getAll: async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+  getAll: async (
+    req: Request,
+    res: Response,
+    next: NextFunction,
+  ): Promise<void> => {
     try {
       const { categories, meta } = await CategoryService.getAll(
-        req.query as Record<string, unknown>
+        req.query as Record<string, unknown>,
       );
-      sendSuccess(res, categories, 'Categories fetched successfully', 200, meta);
+      sendSuccess(
+        res,
+        categories,
+        "Categories fetched successfully",
+        200,
+        meta,
+      );
     } catch (err) {
       next(err);
     }
   },
 
   // GET /categories/:id
-  getById: async (req: Request<{ id: string }>, res: Response, next: NextFunction): Promise<void> => {
+  getById: async (
+    req: Request<{ id: string }>,
+    res: Response,
+    next: NextFunction,
+  ): Promise<void> => {
     try {
       const category = await CategoryService.getById(req.params.id);
-      sendSuccess(res, category, 'Category fetched successfully');
+      sendSuccess(res, category, "Category fetched successfully");
     } catch (err) {
       next(err);
     }
@@ -34,11 +48,11 @@ export const CategoryController = {
   getBySlug: async (
     req: Request<{ slug: string }>,
     res: Response,
-    next: NextFunction
+    next: NextFunction,
   ): Promise<void> => {
     try {
       const category = await CategoryService.getBySlug(req.params.slug);
-      sendSuccess(res, category, 'Category fetched successfully');
+      sendSuccess(res, category, "Category fetched successfully");
     } catch (err) {
       next(err);
     }
@@ -48,11 +62,11 @@ export const CategoryController = {
   create: async (
     req: Request<object, object, CategoryPayload>,
     res: Response,
-    next: NextFunction
+    next: NextFunction,
   ): Promise<void> => {
     try {
       const category = await CategoryService.create(req.body);
-      sendCreated(res, category, 'Category created successfully');
+      sendCreated(res, category, "Category created successfully");
     } catch (err) {
       next(err);
     }
@@ -62,38 +76,42 @@ export const CategoryController = {
   update: async (
     req: Request<{ id: string }, object, Partial<CategoryPayload>>,
     res: Response,
-    next: NextFunction
+    next: NextFunction,
   ): Promise<void> => {
     try {
       const category = await CategoryService.update(req.params.id, req.body);
-      sendSuccess(res, category, 'Category updated successfully');
+      sendSuccess(res, category, "Category updated successfully");
     } catch (err) {
       next(err);
     }
   },
 
   // DELETE /categories/:id  [admin]
-  delete: async (req: Request<{ id: string }>, res: Response, next: NextFunction): Promise<void> => {
+  delete: async (
+    req: Request<{ id: string }>,
+    res: Response,
+    next: NextFunction,
+  ): Promise<void> => {
     try {
       await CategoryService.delete(req.params.id);
-      sendSuccess(res, null, 'Category deleted successfully');
+      sendSuccess(res, null, "Category deleted successfully");
     } catch (err) {
       next(err);
     }
   },
 
-  // GET /categories/:id/questions
   getQuestions: async (
     req: Request<{ id: string }>,
     res: Response,
-    next: NextFunction
+    next: NextFunction,
   ): Promise<void> => {
     try {
       const result = await CategoryService.getQuestions(
         req.params.id,
-        req.query.difficulty as string | undefined
+        req.query.difficulty as string | undefined,
+        req.query.limit ? Number(req.query.limit) : undefined,
       );
-      sendSuccess(res, result, 'Questions fetched successfully');
+      sendSuccess(res, result, "Questions fetched successfully");
     } catch (err) {
       next(err);
     }
@@ -103,11 +121,14 @@ export const CategoryController = {
   addQuestion: async (
     req: Request<{ id: string }, object, QuestionPayload>,
     res: Response,
-    next: NextFunction
+    next: NextFunction,
   ): Promise<void> => {
     try {
-      const category = await CategoryService.addQuestion(req.params.id, req.body);
-      sendCreated(res, category, 'Question added successfully');
+      const category = await CategoryService.addQuestion(
+        req.params.id,
+        req.body,
+      );
+      sendCreated(res, category, "Question added successfully");
     } catch (err) {
       next(err);
     }
@@ -115,17 +136,21 @@ export const CategoryController = {
 
   // PATCH /categories/:id/questions/:questionId  [admin]
   updateQuestion: async (
-    req: Request<{ id: string; questionId: string }, object, Partial<QuestionPayload>>,
+    req: Request<
+      { id: string; questionId: string },
+      object,
+      Partial<QuestionPayload>
+    >,
     res: Response,
-    next: NextFunction
+    next: NextFunction,
   ): Promise<void> => {
     try {
       const category = await CategoryService.updateQuestion(
         req.params.id,
         req.params.questionId,
-        req.body
+        req.body,
       );
-      sendSuccess(res, category, 'Question updated successfully');
+      sendSuccess(res, category, "Question updated successfully");
     } catch (err) {
       next(err);
     }
@@ -135,11 +160,14 @@ export const CategoryController = {
   deleteQuestion: async (
     req: Request<{ id: string; questionId: string }>,
     res: Response,
-    next: NextFunction
+    next: NextFunction,
   ): Promise<void> => {
     try {
-      const category = await CategoryService.deleteQuestion(req.params.id, req.params.questionId);
-      sendSuccess(res, category, 'Question deleted successfully');
+      const category = await CategoryService.deleteQuestion(
+        req.params.id,
+        req.params.questionId,
+      );
+      sendSuccess(res, category, "Question deleted successfully");
     } catch (err) {
       next(err);
     }

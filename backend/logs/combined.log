@@ -1734,3 +1734,40 @@
 [32m    [39m
 [2026-04-16 11:20:25] [33mwarn[39m: [33m[39m
 [33mSIGINT received. Shutting down gracefully...[39m
+[2026-04-16 11:55:21] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-02.e8ba9.mongodb.net[39m
+[2026-04-16 11:55:21] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-16 12:01:50] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-16 12:17:36] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-16 12:33:22] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-16 12:49:11] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-16 13:04:59] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-16 13:08:27] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-16 13:24:38] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-16 13:40:18] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-16 13:46:48] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-16 14:01:24] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-16 15:54:35] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-16 16:12:47] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-16 22:02:38] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-16 22:21:10] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-16 22:30:23] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-16 22:30:23] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-16 22:30:31] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-01.e8ba9.mongodb.net[39m
+[2026-04-16 22:30:31] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-16 22:35:02] [33mwarn[39m: [33m[39m
+[33mSIGINT received. Shutting down gracefully...[39m
