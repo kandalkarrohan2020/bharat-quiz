@@ -131,11 +131,12 @@ export const CategoryService = {
 
     // Strip correct answers from response
     const sanitized = questions.map(
-      ({ _id, question, options, difficulty: d }) => ({
+      ({ _id, question, options, difficulty: d, correctAnswer }) => ({
         _id,
         question,
         options,
         difficulty: d,
+        correctAnswer, 
       }),
     );
 

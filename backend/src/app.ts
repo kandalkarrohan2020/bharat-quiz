@@ -24,15 +24,25 @@ const createApp = (): Application => {
 
   // 2. Security
   app.use(helmet());
-
-  // 3. CORS (ONLY ONCE)
+  app.options("*", cors());
+  
+  // 3. CORS
   app.use(
     cors({
-      origin: config.cors.origin,
+      origin: (origin, callback) => {
+        if (!origin) return callback(null, true);
+
+        const allowedOrigins = config.cors.origin;
+
+        if (allowedOrigins.includes(origin)) {
+          return callback(null, true);
+        }
+
+        // DO NOT THROW ERROR
+        return callback(null, false);
+      },
       credentials: true,
-      methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
-      allowedHeaders: ["Content-Type", "Authorization"],
-    })
+    }),
   );
 
   // 4. Cookies
@@ -51,7 +61,7 @@ const createApp = (): Application => {
     app.use(
       morgan("combined", {
         stream: { write: (msg) => logger.info(msg.trim()) },
-      })
+      }),
     );
   }
 
@@ -70,9 +80,7 @@ const createApp = (): Application => {
   app.use(`/api/${config.server.apiVersion}`, (req, res, next) => {
     const publicRoutes = ["/auth/login", "/auth/register", "/auth/refresh"];
 
-    const isPublic = publicRoutes.some((route) =>
-      req.path.startsWith(route)
-    );
+    const isPublic = publicRoutes.some((route) => req.path.startsWith(route));
 
     if (isPublic) return next();
 

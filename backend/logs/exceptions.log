@@ -367,3 +367,9 @@
     at Server.listen (node:net:2099:7)
     at bootstrap (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/server.ts:14:10)
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[2026-04-13 14:58:14] [31merror[39m: Error: listen EADDRINUSE: address already in use :::8000
+    at Server.setupListenHandle [as _listen2] (node:net:1937:16)
+    at listenInCluster (node:net:1994:12)
+    at Server.listen (node:net:2099:7)
+    at bootstrap (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/server.ts:14:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)

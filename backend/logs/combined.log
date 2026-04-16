@@ -1304,3 +1304,433 @@
 [2026-04-13 14:51:52] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
 [2026-04-13 14:54:58] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-02.e8ba9.mongodb.net[39m
 [2026-04-13 14:56:36] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-02.e8ba9.mongodb.net[39m
+[2026-04-13 14:58:14] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-02.e8ba9.mongodb.net[39m
+[2026-04-13 14:58:34] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-02.e8ba9.mongodb.net[39m
+[2026-04-13 14:58:34] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-13 14:58:40] [33mwarn[39m: [33m[39m
+[33mSIGINT received. Shutting down gracefully...[39m
+[2026-04-14 13:52:46] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-02.e8ba9.mongodb.net[39m
+[2026-04-14 13:52:46] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-14 14:12:28] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-02.e8ba9.mongodb.net[39m
+[2026-04-14 14:12:28] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-14 14:12:35] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-14 14:12:35] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-14 14:13:25] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-02.e8ba9.mongodb.net[39m
+[2026-04-14 14:13:25] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-14 14:13:58] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-14 14:13:58] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-14 14:15:35] [33mwarn[39m: [33m[39m
+[33mSIGINT received. Shutting down gracefully...[39m
+[2026-04-14 14:15:41] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-14 14:15:41] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-14 14:16:26] [31merror[39m: Error: Not allowed by CORS
+    at origin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/app.ts:38:25)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:204:7)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at internalNext (file:///Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/helmet/index.mjs:533:6)
+[2026-04-14 14:16:26] [31merror[39m: Error: Not allowed by CORS
+    at origin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/app.ts:38:25)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:204:7)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at internalNext (file:///Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/helmet/index.mjs:533:6)
+[2026-04-14 14:16:26] [31merror[39m: Error: Not allowed by CORS
+    at origin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/app.ts:38:25)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:204:7)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at internalNext (file:///Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/helmet/index.mjs:533:6)
+[2026-04-14 14:16:28] [31merror[39m: Error: Not allowed by CORS
+    at origin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/app.ts:38:25)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:204:7)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at internalNext (file:///Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/helmet/index.mjs:533:6)
+[2026-04-14 14:16:28] [31merror[39m: Error: Not allowed by CORS
+    at origin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/app.ts:38:25)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:204:7)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at internalNext (file:///Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/helmet/index.mjs:533:6)
+[2026-04-14 14:16:28] [31merror[39m: Error: Not allowed by CORS
+    at origin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/app.ts:38:25)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:204:7)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at internalNext (file:///Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/helmet/index.mjs:533:6)
+[2026-04-14 14:16:35] [31merror[39m: Error: Not allowed by CORS
+    at origin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/app.ts:38:25)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:204:7)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at internalNext (file:///Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/helmet/index.mjs:533:6)
+[2026-04-14 14:16:35] [31merror[39m: Error: Not allowed by CORS
+    at origin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/app.ts:38:25)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:204:7)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at internalNext (file:///Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/helmet/index.mjs:533:6)
+[2026-04-14 14:16:35] [31merror[39m: Error: Not allowed by CORS
+    at origin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/app.ts:38:25)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:204:7)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at internalNext (file:///Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/helmet/index.mjs:533:6)
+[2026-04-14 14:16:36] [31merror[39m: Error: Not allowed by CORS
+    at origin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/app.ts:38:25)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:204:7)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at internalNext (file:///Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/helmet/index.mjs:533:6)
+[2026-04-14 14:16:36] [31merror[39m: Error: Not allowed by CORS
+    at origin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/app.ts:38:25)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:204:7)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at internalNext (file:///Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/helmet/index.mjs:533:6)
+[2026-04-14 14:16:36] [31merror[39m: Error: Not allowed by CORS
+    at origin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/app.ts:38:25)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:204:7)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at internalNext (file:///Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/helmet/index.mjs:533:6)
+[2026-04-14 14:16:37] [31merror[39m: Error: Not allowed by CORS
+    at origin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/app.ts:38:25)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:204:7)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at internalNext (file:///Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/helmet/index.mjs:533:6)
+[2026-04-14 14:16:37] [31merror[39m: Error: Not allowed by CORS
+    at origin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/app.ts:38:25)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:204:7)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at internalNext (file:///Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/helmet/index.mjs:533:6)
+[2026-04-14 14:16:37] [31merror[39m: Error: Not allowed by CORS
+    at origin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/app.ts:38:25)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:204:7)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at internalNext (file:///Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/helmet/index.mjs:533:6)
+[2026-04-14 14:16:38] [31merror[39m: Error: Not allowed by CORS
+    at origin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/app.ts:38:25)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:204:7)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at internalNext (file:///Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/helmet/index.mjs:533:6)
+[2026-04-14 14:16:38] [31merror[39m: Error: Not allowed by CORS
+    at origin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/app.ts:38:25)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:204:7)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at internalNext (file:///Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/helmet/index.mjs:533:6)
+[2026-04-14 14:16:38] [31merror[39m: Error: Not allowed by CORS
+    at origin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/app.ts:38:25)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:204:7)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at internalNext (file:///Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/helmet/index.mjs:533:6)
+[2026-04-14 14:16:42] [31merror[39m: Error: Not allowed by CORS
+    at origin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/app.ts:38:25)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:204:7)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at internalNext (file:///Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/helmet/index.mjs:533:6)
+[2026-04-14 14:16:42] [31merror[39m: Error: Not allowed by CORS
+    at origin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/app.ts:38:25)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:204:7)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at internalNext (file:///Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/helmet/index.mjs:533:6)
+[2026-04-14 14:16:42] [31merror[39m: Error: Not allowed by CORS
+    at origin (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/app.ts:38:25)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:219:13
+    at optionsCallback (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:199:9)
+    at corsMiddleware (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/cors/lib/index.js:204:7)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at internalNext (file:///Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/helmet/index.mjs:533:6)
+[2026-04-14 14:18:22] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-14 14:18:22] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-14 14:20:11] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-01.e8ba9.mongodb.net[39m
+[2026-04-14 14:20:11] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-14 14:20:24] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-01.e8ba9.mongodb.net[39m
+[2026-04-14 14:20:24] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-14 14:53:36] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-14 14:53:36] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-14 14:53:58] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-01.e8ba9.mongodb.net[39m
+[2026-04-14 14:53:58] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-14 14:54:21] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-14 14:54:21] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-14 15:14:12] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-14 15:49:50] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-14 16:07:43] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-14 16:13:10] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-14 16:45:13] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-14 16:55:41] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-14 16:58:35] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-14 17:00:57] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-14 17:05:57] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-14 17:10:57] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-14 17:14:38] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-14 17:30:14] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-14 17:40:01] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-14 17:44:49] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-14 18:00:56] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-14 18:11:18] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-14 18:15:38] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-14 23:10:31] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-14 23:11:52] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-14 23:24:13] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-15 10:50:36] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-15 11:17:37] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-15 11:58:49] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-15 13:51:37] [31merror[39m: MongoServerSelectionError: getaddrinfo ENOTFOUND rohan-shard-00-00.e8ba9.mongodb.net
+    at Topology.selectServer (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongodb/src/sdam/topology.ts:635:30)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:575:9)
+    at process.processTimers (node:internal/timers:549:7)
+    at async tryOperation (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongodb/src/operations/execute_operation.ts:202:16)
+    at async executeOperation (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongodb/src/operations/execute_operation.ts:119:12)
+    at async AggregationCursor._initialize (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongodb/src/cursor/aggregation_cursor.ts:92:22)
+    at async AggregationCursor.cursorInit (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:949:21)
+    at async AggregationCursor.fetchBatch (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:987:7)
+    at async AggregationCursor.next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:608:9)
+[2026-04-15 13:51:37] [31merror[39m: MongoServerSelectionError: getaddrinfo ENOTFOUND rohan-shard-00-00.e8ba9.mongodb.net
+    at Topology.selectServer (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongodb/src/sdam/topology.ts:635:30)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:575:9)
+    at process.processTimers (node:internal/timers:549:7)
+    at async tryOperation (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongodb/src/operations/execute_operation.ts:202:16)
+    at async executeOperation (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongodb/src/operations/execute_operation.ts:119:12)
+    at async AggregationCursor._initialize (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongodb/src/cursor/aggregation_cursor.ts:92:22)
+    at async AggregationCursor.cursorInit (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:949:21)
+    at async AggregationCursor.fetchBatch (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:987:7)
+    at async AggregationCursor.next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:608:9)
+[2026-04-15 13:51:37] [31merror[39m: MongoServerSelectionError: getaddrinfo ENOTFOUND rohan-shard-00-00.e8ba9.mongodb.net
+    at Topology.selectServer (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongodb/src/sdam/topology.ts:635:30)
+    at runNextTicks (node:internal/process/task_queues:65:5)
+    at listOnTimeout (node:internal/timers:575:9)
+    at process.processTimers (node:internal/timers:549:7)
+    at async tryOperation (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongodb/src/operations/execute_operation.ts:202:16)
+    at async executeOperation (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongodb/src/operations/execute_operation.ts:119:12)
+    at async AggregationCursor._initialize (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongodb/src/cursor/aggregation_cursor.ts:92:22)
+    at async AggregationCursor.cursorInit (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:949:21)
+    at async AggregationCursor.fetchBatch (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:987:7)
+    at async AggregationCursor.next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:608:9)
+[2026-04-15 13:53:08] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-15 18:02:47] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-15 18:04:38] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-15 18:08:22] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-15 18:26:24] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-15 18:29:24] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-15 18:33:10] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-15 18:43:26] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-15 23:29:56] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-16 00:44:51] [33mwarn[39m: [33mMongoDB disconnected. Attempting reconnect...[39m
+[2026-04-16 10:28:02] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-16 10:28:02] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-16 10:30:25] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-01.e8ba9.mongodb.net[39m
+[2026-04-16 10:30:25] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-16 10:34:34] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-16 10:34:34] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-16 10:36:28] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-00.e8ba9.mongodb.net[39m
+[2026-04-16 10:36:28] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-16 10:36:48] [32minfo[39m: [32mMongoDB Connected: rohan-shard-00-01.e8ba9.mongodb.net[39m
+[2026-04-16 10:36:48] [32minfo[39m: [32m[39m
+[32m       India Quiz API Started[39m
+[32m       ENV  : development                         [39m
+[32m       PORT : 8000                                [39m
+[32m       API  : /api/v1                             [39m
+[32m    [39m
+[2026-04-16 11:20:25] [33mwarn[39m: [33m[39m
+[33mSIGINT received. Shutting down gracefully...[39m

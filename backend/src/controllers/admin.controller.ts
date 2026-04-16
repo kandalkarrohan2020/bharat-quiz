@@ -15,6 +15,7 @@ import type {
   QuestionQuery,
   BulkDeletePayload,
   BulkDifficultyPayload,
+  BulkCreatePayload,
   ChangePasswordPayload,
   ChangeEmailPayload,
 } from "../types/index.js";
@@ -200,6 +201,28 @@ export const AdminController = {
   // ──────────────────────────────────────────────────────────
   // BULK OPERATIONS
   // ──────────────────────────────────────────────────────────
+
+  /*
+   * POST /api/v1/admin/questions/bulk-create
+   * Body: { questions: CreateQuestionPayload[] }
+   * Imports multiple questions (e.g. from an Excel upload).
+   */
+  bulkCreateQuestions: async (
+    req: Request<{}, {}, BulkCreatePayload>,
+    res: Response,
+    next: NextFunction,
+  ): Promise<void> => {
+    try {
+      const result = await AdminService.bulkCreateQuestions(req.body.questions);
+      sendCreated(
+        res,
+        result,
+        `${result.totalInserted} question(s) imported successfully`,
+      );
+    } catch (err) {
+      next(err);
+    }
+  },
 
   /**
    * DELETE /api/v1/admin/questions/bulk

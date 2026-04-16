@@ -22,6 +22,7 @@ import type {
   BulkDifficultyPayload,
   DashboardStats,
   BulkResult,
+  BulkCreateResult,
 } from "../types/index.js";
 
 type LeanCategory = {
@@ -249,7 +250,7 @@ export const AdminService = {
       const updatedQ = {
         ...existingQ,
         ...fields,
-        _id: existingQ._id, // IMPORTANT: keep same ID
+        _id: existingQ._id,
       };
 
       await Promise.all([
@@ -315,6 +316,7 @@ export const AdminService = {
   // ─────────────────────────────────────────
   // BULK
   // ─────────────────────────────────────────
+
   async bulkUpdateDifficulty(
     questionIds: BulkDifficultyPayload["questionIds"],
     difficulty: BulkDifficultyPayload["difficulty"],
@@ -352,6 +354,68 @@ export const AdminService = {
     return {
       modifiedCount: result.modifiedCount,
     };
+  },
+
+  /**
+   * Bulk-insert questions from an Excel import.
+   * Groups by categoryId for one $push per category (efficient).
+   */
+  async bulkCreateQuestions(
+    questions: CreateQuestionPayload[],
+  ): Promise<BulkCreateResult> {
+    if (!questions?.length) {
+      throw new ValidationError(
+        "questions array is required and must not be empty",
+      );
+    }
+
+    if (questions.length > 500) {
+      throw new ValidationError("Maximum 500 questions per import");
+    }
+
+    // ── Group by categoryId ────────────────────────────────
+    const grouped = new Map<string, CreateQuestionPayload[]>();
+
+    for (const q of questions) {
+      if (!Types.ObjectId.isValid(q.categoryId)) {
+        throw new ValidationError(`Invalid category ID: ${q.categoryId}`);
+      }
+      const list = grouped.get(q.categoryId) ?? [];
+      list.push(q);
+      grouped.set(q.categoryId, list);
+    }
+
+    let totalInserted = 0;
+    const insertedByCategory: Record<string, number> = {};
+
+    // ── One $push per category ─────────────────────────────
+    for (const [categoryId, items] of grouped.entries()) {
+      const newQuestions = items.map((item) => ({
+        _id: new Types.ObjectId(),
+        question: item.question.trim(),
+        options: item.options.map((o) => o.trim()) as [
+          string,
+          string,
+          string,
+          string,
+        ],
+        correctAnswer: item.correctAnswer,
+        difficulty: item.difficulty,
+      }));
+
+      const category = await Category.findByIdAndUpdate(
+        categoryId,
+        { $push: { questions: { $each: newQuestions } } },
+        { new: true, runValidators: true },
+      ).lean();
+
+      if (!category) throw new NotFoundError(`Category (${categoryId})`);
+
+      insertedByCategory[category.name] = items.length;
+      totalInserted += items.length;
+    }
+
+    return { totalInserted, insertedByCategory };
   },
 
   async bulkDeleteQuestions(

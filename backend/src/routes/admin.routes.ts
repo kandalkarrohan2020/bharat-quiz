@@ -16,6 +16,7 @@ import {
   updateQuestionSchema,
   bulkDeleteSchema,
   bulkDifficultySchema,
+  bulkCreateSchema,         // ← NEW
   changePasswordSchema,
   changeEmailSchema,
   questionQuerySchema,
@@ -53,18 +54,9 @@ router
 // ─────────────────────────────────────────────────────────────
 // BULK QUESTION OPERATIONS
 // IMPORTANT: declared BEFORE /:id routes to avoid Express
-// treating the literal strings "bulk" / "bulk-difficulty" as IDs.
+// treating the literal strings "bulk" / "bulk-difficulty" /
+// "bulk-create" as IDs.
 // ─────────────────────────────────────────────────────────────
-
-/**
- * DELETE /api/v1/admin/questions/bulk
- * Body: { questionIds: string[] }
- */
-router.delete(
-  '/questions/bulk',
-  validate(bulkDeleteSchema),
-  AdminController.bulkDeleteQuestions
-);
 
 /**
  * PATCH /api/v1/admin/questions/bulk-difficulty
@@ -73,7 +65,28 @@ router.delete(
 router.patch(
   '/questions/bulk-difficulty',
   validate(bulkDifficultySchema),
-  AdminController.bulkUpdateDifficulty
+  AdminController.bulkUpdateDifficulty,
+);
+
+/**
+ * POST /api/v1/admin/questions/bulk-create
+ * Body: { questions: CreateQuestionPayload[] }
+ * Imports multiple questions at once (e.g. from an Excel upload).
+ */
+router.post(
+  '/questions/bulk-create',
+  validate(bulkCreateSchema),
+  AdminController.bulkCreateQuestions,
+);
+
+/**
+ * DELETE /api/v1/admin/questions/bulk
+ * Body: { questionIds: string[] }
+ */
+router.delete(
+  '/questions/bulk',
+  validate(bulkDeleteSchema),
+  AdminController.bulkDeleteQuestions,
 );
 
 // ─────────────────────────────────────────────────────────────
@@ -117,7 +130,7 @@ router
 router.patch(
   '/settings/password',
   validate(changePasswordSchema),
-  AdminController.changePassword
+  AdminController.changePassword,
 );
 
 /**
@@ -127,7 +140,7 @@ router.patch(
 router.patch(
   '/settings/email',
   validate(changeEmailSchema),
-  AdminController.changeEmail
+  AdminController.changeEmail,
 );
 
 export default router;

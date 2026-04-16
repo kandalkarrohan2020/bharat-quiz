@@ -204,6 +204,15 @@ export interface QuestionQuery {
 // ADMIN — BULK OPERATION TYPES
 // ─────────────────────────────────────────────────────────────
 
+export interface BulkCreatePayload {
+  questions: CreateQuestionPayload[];
+}
+ 
+export interface BulkCreateResult {
+  totalInserted:       number;
+  insertedByCategory:  Record<string, number>;
+}
+
 export interface BulkDeletePayload {
   questionIds: string[];
 }

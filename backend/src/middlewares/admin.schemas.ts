@@ -27,14 +27,15 @@ export const optionsSchema = z
 // ─────────────────────────────────────────────────────────────
 
 export const createCategorySchema = z.object({
-  name: z
-    .string()
-    .trim()
-    .min(1, "Category name cannot be empty")
-    .max(100),
+  name: z.string().trim().min(1, "Category name cannot be empty").max(100),
   icon: z.string().trim().max(10).default("📚"),
   description: z.string().trim().max(255).optional().default(""),
-  color: z.string().trim().max(120).optional().default("from-blue-700 to-cyan-600"),
+  color: z
+    .string()
+    .trim()
+    .max(120)
+    .optional()
+    .default("from-blue-700 to-cyan-600"),
 });
 
 export const updateCategorySchema = z
@@ -93,16 +94,32 @@ export const questionQuerySchema = z.object({
 // BULK OPERATION SCHEMAS
 // ─────────────────────────────────────────────────────────────
 
+export const bulkCreateSchema = z.object({
+  questions: z
+    .array(
+      z.object({
+        categoryId: z.string().min(1, "categoryId is required"),
+        question: z.string().min(1, "question is required"),
+        options: z.tuple([z.string(), z.string(), z.string(), z.string()]),
+        correctAnswer: z.union([
+          z.literal(0),
+          z.literal(1),
+          z.literal(2),
+          z.literal(3),
+        ]),
+        difficulty: z.enum(["easy", "medium", "hard"]),
+      }),
+    )
+    .min(1, "questions array must not be empty")
+    .max(500, "Maximum 500 questions per import"),
+});
+
 export const bulkDeleteSchema = z.object({
-  questionIds: z
-    .array(mongoId)
-    .min(1, "At least one question ID is required"),
+  questionIds: z.array(mongoId).min(1, "At least one question ID is required"),
 });
 
 export const bulkDifficultySchema = z.object({
-  questionIds: z
-    .array(mongoId)
-    .min(1, "At least one question ID is required"),
+  questionIds: z.array(mongoId).min(1, "At least one question ID is required"),
   difficulty,
 });
 
@@ -111,9 +128,7 @@ export const bulkDifficultySchema = z.object({
 // ─────────────────────────────────────────────────────────────
 
 export const changePasswordSchema = z.object({
-  currentPassword: z
-    .string()
-    .min(1, "Current password cannot be empty"),
+  currentPassword: z.string().min(1, "Current password cannot be empty"),
   newPassword: z
     .string()
     .min(6, "New password must be at least 6 characters")
@@ -130,10 +145,6 @@ export const changeUsernameSchema = z.object({
 });
 
 export const changeEmailSchema = z.object({
-  newEmail: z
-    .string()
-    .trim()
-    .email("Invalid email format")
-    .max(50),
+  newEmail: z.string().trim().email("Invalid email format").max(50),
   password: z.string().min(1, "Password cannot be empty"),
 });
