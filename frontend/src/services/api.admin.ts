@@ -1,12 +1,10 @@
 // ============================================================
-// src/services/api.ts  — admin section
-// Add these exports alongside your existing authApi / quizApi.
-// All paths match admin.routes.ts exactly.
+// src/services/api.admin.ts
+// Full file — bulkCreateQuestions added at the bottom of
+// the Bulk Operations section.  Everything else is unchanged.
 // ============================================================
 
 const BASE = import.meta.env.VITE_BACKEND_URL + "/api/v1";
-
-// ── shared fetch helper (reuse / replace with your own) ──────
 
 async function request<T = unknown>(
   method: 'GET' | 'POST' | 'PUT' | 'PATCH' | 'DELETE',
@@ -38,28 +36,21 @@ async function request<T = unknown>(
     throw new Error(json.message ?? json.error ?? 'Request failed');
   }
 
-  return json; // { success, message, data, meta? }
+  return json;
 }
-
-// ─────────────────────────────────────────────────────────────
-// adminApi — mirrors every AdminController method
-// ─────────────────────────────────────────────────────────────
 
 export const adminApi = {
 
   // ── Dashboard ───────────────────────────────────────────────
 
-  /** GET /api/v1/admin/stats */
   getStats: () =>
     request('GET', '/admin/stats'),
 
   // ── Categories ──────────────────────────────────────────────
 
-  /** GET /api/v1/admin/categories */
   getCategories: () =>
     request('GET', '/admin/categories'),
 
-  /** POST /api/v1/admin/categories */
   createCategory: (payload: {
     name: string;
     icon?: string;
@@ -67,7 +58,6 @@ export const adminApi = {
     color?: string;
   }) => request('POST', '/admin/categories', payload),
 
-  /** PUT /api/v1/admin/categories/:id */
   updateCategory: (
     id: string,
     payload: {
@@ -79,13 +69,11 @@ export const adminApi = {
     }
   ) => request('PUT', `/admin/categories/${id}`, payload),
 
-  /** DELETE /api/v1/admin/categories/:id */
   deleteCategory: (id: string) =>
     request('DELETE', `/admin/categories/${id}`),
 
   // ── Questions ───────────────────────────────────────────────
 
-  /** GET /api/v1/admin/questions */
   getQuestions: (params?: {
     categoryId?: string;
     difficulty?: string;
@@ -94,7 +82,6 @@ export const adminApi = {
     limit?: number;
   }) => request('GET', '/admin/questions', undefined, params as any),
 
-  /** POST /api/v1/admin/questions */
   createQuestion: (payload: {
     categoryId: string;
     question: string;
@@ -103,7 +90,6 @@ export const adminApi = {
     difficulty: 'easy' | 'medium' | 'hard';
   }) => request('POST', '/admin/questions', payload),
 
-  /** PUT /api/v1/admin/questions/:id */
   updateQuestion: (
     id: string,
     payload: {
@@ -115,10 +101,6 @@ export const adminApi = {
     }
   ) => request('PUT', `/admin/questions/${id}`, payload),
 
-  /**
-   * DELETE /api/v1/admin/questions/:id
-   * categoryId is passed as a query param to speed up subdoc lookup
-   */
   deleteQuestion: (id: string, categoryId?: string) => {
     const qs = categoryId ? `?categoryId=${categoryId}` : '';
     return request('DELETE', `/admin/questions/${id}${qs}`);
@@ -126,13 +108,26 @@ export const adminApi = {
 
   // ── Bulk Operations ─────────────────────────────────────────
 
-  /** DELETE /api/v1/admin/questions/bulk */
   bulkDeleteQuestions: (payload: { questionIds: string[] }) =>
     request('DELETE', '/admin/questions/bulk', payload),
 
-  /** PATCH /api/v1/admin/questions/bulk-difficulty */
   bulkUpdateDifficulty: (payload: {
     questionIds: string[];
     difficulty: 'easy' | 'medium' | 'hard';
   }) => request('PATCH', '/admin/questions/bulk-difficulty', payload),
+
+  /**
+   * POST /api/v1/admin/questions/bulk-create
+   * Import multiple questions (typically from an Excel upload).
+   * correctAnswer is 0-indexed (convert from Excel's 1-indexed before calling).
+   */
+  bulkCreateQuestions: (payload: {
+    questions: Array<{
+      categoryId:    string;
+      question:      string;
+      options:       [string, string, string, string];
+      correctAnswer: 0 | 1 | 2 | 3;
+      difficulty:    'easy' | 'medium' | 'hard';
+    }>;
+  }) => request('POST', '/admin/questions/bulk-create', payload),
 };

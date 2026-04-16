@@ -51,9 +51,9 @@ type GameAction =
 // ─────────────────────────────────────────────────────────────
 
 const timeForDifficulty = (d: Difficulty): number => {
-  if (d === 'easy')   return 30;
-  if (d === 'medium') return 20;
-  return 15;
+  if (d === 'easy')   return 60;
+  if (d === 'medium') return 45;
+  return 30;
 };
 
 // ─────────────────────────────────────────────────────────────

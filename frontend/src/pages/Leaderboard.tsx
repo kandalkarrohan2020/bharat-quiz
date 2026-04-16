@@ -4,7 +4,6 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Badge } from '@/components/ui/badge';
-import { categories } from '@/data/quizData';
 import { gameApi, LeaderboardEntry } from '@/services/api';
 import { Trophy, ArrowLeft, Medal, Mail, RefreshCw, Loader2 } from 'lucide-react';
 
@@ -25,13 +24,15 @@ const difficultyBadgeClass = (d: string) => {
   return 'bg-destructive/20 text-destructive border-destructive/30';
 };
 
-const DEMO_DATA: LeaderboardEntry[] = [
-  { rank: 1, playerName: 'Arjun Sharma',  score: 10, totalQuestions: 10, percentage: 100, difficulty: 'hard',   title: 'Maharishi', completedAt: new Date().toISOString() },
-  { rank: 2, playerName: 'Priya Patel',   score: 9,  totalQuestions: 10, percentage: 90,  difficulty: 'hard',   title: 'Pandit',    completedAt: new Date().toISOString() },
-  { rank: 3, playerName: 'Rahul Verma',   score: 8,  totalQuestions: 10, percentage: 80,  difficulty: 'medium', title: 'Vidwan',    completedAt: new Date().toISOString() },
-  { rank: 4, playerName: 'Sneha Gupta',   score: 7,  totalQuestions: 10, percentage: 70,  difficulty: 'medium', title: 'Scholar',   completedAt: new Date().toISOString() },
-  { rank: 5, playerName: 'Amit Kumar',    score: 6,  totalQuestions: 10, percentage: 60,  difficulty: 'easy',   title: 'Learner',   completedAt: new Date().toISOString() },
-];
+// ─────────────────────────────────────────────────────────────
+// Types
+// ─────────────────────────────────────────────────────────────
+
+interface CategoryOption {
+  id:   string;
+  name: string;
+  icon: string;
+}
 
 // ─────────────────────────────────────────────────────────────
 // Component
@@ -40,35 +41,58 @@ const DEMO_DATA: LeaderboardEntry[] = [
 const Leaderboard = () => {
   const navigate = useNavigate();
 
-  // ── State ──────────────────────────────────────────────────
+  // ── Filters ───────────────────────────────────────────────
   const [categoryFilter,   setCategoryFilter]   = useState('all');
   const [difficultyFilter, setDifficultyFilter] = useState('all');
+
+  // ── Categories for filter dropdown ────────────────────────
+  const [categoryOptions,  setCategoryOptions]  = useState<CategoryOption[]>([]);
+  const [loadingCats,      setLoadingCats]      = useState(true);
+
+  // ── Leaderboard entries ───────────────────────────────────
   const [entries,          setEntries]          = useState<LeaderboardEntry[]>([]);
   const [loading,          setLoading]          = useState(true);
+
+  // ── Admin flag ────────────────────────────────────────────
   const [isAdmin,          setIsAdmin]          = useState(false);
 
-  // Check admin status once on mount
+  // ── Check admin on mount ──────────────────────────────────
   useEffect(() => {
-    const token = localStorage.getItem('admin_token');
-    setIsAdmin(!!token);
+    setIsAdmin(!!localStorage.getItem('admin_token'));
   }, []);
 
-  // ── Fetch ──────────────────────────────────────────────────
+  // ── Fetch categories for the filter dropdown ──────────────
+  useEffect(() => {
+    const fetchCats = async () => {
+      setLoadingCats(true);
+      try {
+        const data = await gameApi.getCategories();
+        setCategoryOptions(
+          data.map((c: any) => ({ id: c.id, name: c.name, icon: c.icon }))
+        );
+      } catch {
+        // silently fail — filter will only show "All Categories"
+      } finally {
+        setLoadingCats(false);
+      }
+    };
+    fetchCats();
+  }, []);
+
+  // ── Fetch leaderboard ─────────────────────────────────────
   const fetchLeaderboard = useCallback(async () => {
     setLoading(true);
     try {
       const cat  = categoryFilter   !== 'all' ? categoryFilter   : undefined;
       const diff = difficultyFilter !== 'all' ? difficultyFilter : undefined;
 
-      // If admin token present use admin endpoint (returns email)
       const data = isAdmin
         ? await gameApi.getLeaderboardAdmin(cat, diff)
         : await gameApi.getLeaderboard(cat, diff);
 
-      setEntries(data.length > 0 ? data : DEMO_DATA);
+      setEntries(data);
     } catch {
-      // Fallback to demo data when API is not reachable
-      setEntries(DEMO_DATA);
+      setEntries([]);
     } finally {
       setLoading(false);
     }
@@ -78,9 +102,9 @@ const Leaderboard = () => {
     fetchLeaderboard();
   }, [fetchLeaderboard]);
 
-  // ─────────────────────────────────────────────────────────────
+  // ─────────────────────────────────────────────────────────
   // Render
-  // ─────────────────────────────────────────────────────────────
+  // ─────────────────────────────────────────────────────────
 
   const top3 = entries.slice(0, 3);
 
@@ -100,11 +124,6 @@ const Leaderboard = () => {
             </div>
           </div>
           <div className="flex items-center gap-2">
-            {isAdmin && (
-              <Badge variant="outline" className="font-heading text-xs text-primary border-primary/40 gap-1">
-                <Mail className="h-3 w-3" /> Admin View
-              </Badge>
-            )}
             <Button
               variant="ghost"
               size="icon"
@@ -125,18 +144,29 @@ const Leaderboard = () => {
 
         {/* ── Filters ── */}
         <div className="flex flex-wrap gap-3">
+
+          {/* Category filter — populated from backend */}
           <Select value={categoryFilter} onValueChange={setCategoryFilter}>
             <SelectTrigger className="w-48 font-heading">
               <SelectValue placeholder="Category" />
             </SelectTrigger>
             <SelectContent>
               <SelectItem value="all">🌐 All Categories</SelectItem>
-              {categories.map(c => (
-                <SelectItem key={c.id} value={c.id}>{c.icon} {c.name}</SelectItem>
-              ))}
+              {loadingCats ? (
+                <div className="flex items-center gap-2 px-3 py-2 text-xs text-muted-foreground font-heading">
+                  <Loader2 className="h-3 w-3 animate-spin" /> Loading…
+                </div>
+              ) : (
+                categoryOptions.map(c => (
+                  <SelectItem key={c.id} value={c.id}>
+                    {c.icon} {c.name}
+                  </SelectItem>
+                ))
+              )}
             </SelectContent>
           </Select>
 
+          {/* Difficulty filter */}
           <Select value={difficultyFilter} onValueChange={setDifficultyFilter}>
             <SelectTrigger className="w-40 font-heading">
               <SelectValue placeholder="Difficulty" />
@@ -153,7 +183,6 @@ const Leaderboard = () => {
         {/* ── Top 3 Podium ── */}
         {!loading && top3.length >= 3 && (
           <div className="grid grid-cols-3 gap-4">
-            {/* Podium order: 2nd | 1st | 3rd */}
             {[top3[1], top3[0], top3[2]].map((entry, idx) => {
               const podiumRank = [2, 1, 3][idx];
               const isFirst    = podiumRank === 1;
@@ -190,11 +219,6 @@ const Leaderboard = () => {
           <CardHeader>
             <CardTitle className="font-display text-foreground flex items-center gap-2">
               <Medal className="h-5 w-5 text-primary" /> Rankings
-              {isAdmin && (
-                <span className="ml-auto text-xs font-heading font-normal text-muted-foreground flex items-center gap-1">
-                  <Mail className="h-3 w-3" /> Email visible (admin only)
-                </span>
-              )}
             </CardTitle>
           </CardHeader>
           <CardContent className="p-0">
@@ -213,17 +237,14 @@ const Leaderboard = () => {
                     key={i}
                     className={`flex items-center gap-4 px-6 py-3 transition-colors hover:bg-primary/5 ${i < 3 ? 'bg-primary/5' : ''}`}
                   >
-                    {/* Rank */}
                     <div className="w-10 text-center font-display font-bold text-lg text-primary shrink-0">
                       {rankEmoji(entry.rank)}
                     </div>
 
-                    {/* Player info */}
                     <div className="flex-1 min-w-0">
                       <p className="font-heading font-semibold text-foreground truncate">
                         {entry.playerName}
                       </p>
-                      {/* Email — admin only */}
                       {isAdmin && entry.playerEmail && (
                         <p className="text-xs text-muted-foreground truncate flex items-center gap-1 mt-0.5">
                           <Mail className="h-3 w-3 shrink-0" />
@@ -246,7 +267,6 @@ const Leaderboard = () => {
                       </div>
                     </div>
 
-                    {/* Score */}
                     <div className="text-right shrink-0">
                       <p className="font-display font-bold text-primary">{entry.percentage}%</p>
                       <p className="text-xs text-muted-foreground">{entry.score}/{entry.totalQuestions}</p>

@@ -61,6 +61,7 @@ const CategorySelect = () => {
         category.id,
         state.difficulty,
       );
+      //console.log("Raw question sample:", res.questions[0]);
 
       if (!res.questions || res.questions.length === 0) {
         setCategoryError(
