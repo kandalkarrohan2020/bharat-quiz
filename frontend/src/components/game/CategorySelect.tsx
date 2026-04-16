@@ -60,6 +60,7 @@ const CategorySelect = () => {
       const res = await gameApi.getCategoryQuestions(
         category.id,
         state.difficulty,
+        QUESTION_COUNT[state.difficulty],
       );
       //console.log("Raw question sample:", res.questions[0]);
 

@@ -137,16 +137,17 @@ export const gameApi = {
    * Count: easy=10, medium=15, hard=20 (enforced server-side).
    */
   getCategoryQuestions: (
-    categoryId: string,
-    difficulty: "easy" | "medium" | "hard",
-  ): Promise<CategoryQuestionsResponse> =>
-    request<CategoryQuestionsResponse>(
-      "GET",
-      `/categories/${categoryId}/questions`,
-      undefined,
-      { difficulty },
-      null,
-    ).then((res) => res.data),
+  categoryId: string,
+  difficulty: "easy" | "medium" | "hard",
+  limit: number,                          // ← add
+): Promise<CategoryQuestionsResponse> =>
+  request<CategoryQuestionsResponse>(
+    "GET",
+    `/categories/${categoryId}/questions`,
+    undefined,
+    { difficulty, limit },
+    null,
+  ).then((res) => res.data),
 
   saveResult: (payload: SaveResultPayload) =>
     request("POST", "/game/results", payload, undefined, null),
