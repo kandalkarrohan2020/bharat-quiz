@@ -793,3 +793,77 @@
     at async AggregationCursor.cursorInit (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:949:21)
     at async AggregationCursor.fetchBatch (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:987:7)
     at async AggregationCursor.next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/mongodb/src/cursor/abstract_cursor.ts:608:9)
+[2026-04-23 13:43:54] [31merror[39m: Error: Account Not Found on This Email !
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:64:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-23 13:44:36] [31merror[39m: Error: Account Not Found on This Email !
+    at Object.login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/services/auth.service.ts:64:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async login (/Users/rohankandalkar/newReparv/bharat-quiz/backend/src/controllers/auth.controller.ts:32:22)
+[2026-04-25 18:18:19] [31merror[39m: PayloadTooLargeError: request entity too large
+    at readStream (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/raw-body/index.js:163:17)
+    at getRawBody (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/raw-body/index.js:116:12)
+    at read (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/body-parser/lib/read.js:79:3)
+    at jsonParser (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/body-parser/lib/types/json.js:138:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/middleware/init.js:40:5)
+[2026-04-25 18:18:20] [31merror[39m: PayloadTooLargeError: request entity too large
+    at readStream (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/raw-body/index.js:163:17)
+    at getRawBody (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/raw-body/index.js:116:12)
+    at read (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/body-parser/lib/read.js:79:3)
+    at jsonParser (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/body-parser/lib/types/json.js:138:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/middleware/init.js:40:5)
+[2026-04-25 18:19:23] [31merror[39m: PayloadTooLargeError: request entity too large
+    at readStream (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/raw-body/index.js:163:17)
+    at getRawBody (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/raw-body/index.js:116:12)
+    at read (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/body-parser/lib/read.js:79:3)
+    at jsonParser (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/body-parser/lib/types/json.js:138:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/middleware/init.js:40:5)
+[2026-04-25 18:37:51] [31merror[39m: PayloadTooLargeError: request entity too large
+    at readStream (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/raw-body/index.js:163:17)
+    at getRawBody (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/raw-body/index.js:116:12)
+    at read (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/body-parser/lib/read.js:79:3)
+    at jsonParser (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/body-parser/lib/types/json.js:138:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/middleware/init.js:40:5)
+[2026-04-25 20:02:04] [31merror[39m: PayloadTooLargeError: request entity too large
+    at readStream (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/raw-body/index.js:163:17)
+    at getRawBody (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/raw-body/index.js:116:12)
+    at read (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/body-parser/lib/read.js:79:3)
+    at jsonParser (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/body-parser/lib/types/json.js:138:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/middleware/init.js:40:5)
+[2026-04-25 20:02:38] [31merror[39m: PayloadTooLargeError: request entity too large
+    at readStream (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/raw-body/index.js:163:17)
+    at getRawBody (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/raw-body/index.js:116:12)
+    at read (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/body-parser/lib/read.js:79:3)
+    at jsonParser (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/body-parser/lib/types/json.js:138:5)
+    at Layer.handle [as handle_request] (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:328:13)
+    at /Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/router/index.js:280:10)
+    at expressInit (/Users/rohankandalkar/newReparv/bharat-quiz/backend/node_modules/express/lib/middleware/init.js:40:5)

@@ -49,6 +49,6 @@ export const config = {
   },
 
   cors: {
-    origin: optional("CORS_ORIGIN", "http://localhost:8080").split(","),
+    origin: optional("CORS_ORIGIN", "http://localhost:8081").split(","),
   },
 } as const;
