@@ -220,11 +220,10 @@ export const categories: Category[] = [
 
 export function getTitleByScore(score: number, total: number): { title: string; emoji: string } {
   const percentage = (score / total) * 100;
-  if (percentage === 100) return { title: 'Maharishi', emoji: '👑' };
-  if (percentage >= 80) return { title: 'Pandit', emoji: '🏆' };
-  if (percentage >= 60) return { title: 'Vidwan', emoji: '🎖️' };
-  if (percentage >= 40) return { title: 'Shishya', emoji: '📚' };
-  if (percentage >= 20) return { title: 'Medhavi', emoji: '🌟' };
+  if (percentage >= 90) return { title: 'Guru', emoji: '🏆' };
+  if (percentage >= 75) return { title: 'Acharya', emoji: '🎖️' };
+  if (percentage >= 50) return { title: 'Shishya', emoji: '🎖️' };
+  if (percentage >= 30) return { title: 'Jigyasu', emoji: '📚' };
   return { title: 'Abhyasi', emoji: '🙏' };
 }
 
